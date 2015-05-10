@@ -1,9 +1,9 @@
-language:
- - c
- - cpp
+language: c
 
-compiler:
- - clang
- - gcc
+env:
+ - CC=clang
+ - CC=clang++
+ - CC=gcc
+ - CC=g++
 
 script: make && make check
